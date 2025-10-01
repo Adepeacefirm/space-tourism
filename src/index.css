@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blue900: hsl(230, 35%, 7%);
+  --color-blue300: hsl(231, 77%, 90%);
+}
+
+*,
+body {
+  font-family: 'Bellefair', sans-serif;
+}
+
+body {
+  background-color: hsl(230, 35%, 7%);
+}
