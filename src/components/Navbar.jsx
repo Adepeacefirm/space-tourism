@@ -41,7 +41,9 @@ const Navbar = () => {
         <NavLink
           to={"/"}
           className={({ isActive }) =>
-            `flex gap-2 pb-2 ${isActive && "border-b-2 border-b-white"}`
+            `flex gap-2 pb-2 border-b-2 border-transparent transition duration-500 ease-in-out hover:border-b-white/50 ${
+              isActive && "border-b-white"
+            }`
           }
         >
           <span className="lg:inline-block font-bold">00</span>HOME
@@ -49,7 +51,9 @@ const Navbar = () => {
         <NavLink
           to={"/destination"}
           className={({ isActive }) =>
-            `flex gap-2 pb-2 ${isActive && "border-b-2 border-b-white"}`
+            `flex gap-2 pb-2 border-b-2 border-transparent transition duration-500 ease-in-out hover:border-b-white/50 ${
+              isActive && "border-b-white"
+            }`
           }
         >
           <span className="font-bold">01</span>DESTINATION
@@ -57,7 +61,9 @@ const Navbar = () => {
         <NavLink
           to={"/crew"}
           className={({ isActive }) =>
-            `flex gap-2 pb-2 ${isActive && "border-b-2 border-b-white"}`
+            `flex gap-2 pb-2 border-b-2 border-transparent transition duration-500 ease-in-out hover:border-b-white/50 ${
+              isActive && "border-b-white"
+            }`
           }
         >
           <span className="font-bold">02</span>CREW
@@ -65,7 +71,9 @@ const Navbar = () => {
         <NavLink
           to={"/technology"}
           className={({ isActive }) =>
-            `flex gap-2 pb-2 ${isActive && "border-b-2 border-b-white"}`
+            `flex gap-2 pb-2 border-b-2 border-transparent transition duration-500 ease-in-out hover:border-b-white/50 ${
+              isActive && "border-b-white"
+            }`
           }
         >
           <span className="font-bold">03</span>TECHNOLOGY
