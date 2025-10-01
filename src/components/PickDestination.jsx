@@ -9,7 +9,7 @@ const PickDestination = () => {
   const [myDestination, setMyDestination] = useState("moon");
   return (
     <main className="pb-12">
-      <h1 className="text-center text-white flex items-center justify-center sm:justify-start sm:ml-7 lg:ml-40 lg:mb-10 gap-3">
+      <h1 className="text-center text-white flex items-center justify-center sm:justify-start sm:ml-7 lg:ml-55 lg:mb-10 gap-3">
         <span className="text-white/50">01</span>PICK YOUR DESTINATION
       </h1>
       <section className="lg:flex lg:w-[70%] lg:mx-auto lg:items-center">
