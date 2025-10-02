@@ -60,7 +60,7 @@ const LaunchTechnology = () => {
                     srcSet={image_spaceport_landscape}
                   />
                   <img
-                    className="w-full h-72 sm:h-auto object-cover sm:object-contain"
+                    className="w-full h-72 sm:h-auto object-cover object-bottom sm:object-top lg:object-center"
                     src={image_spaceport_portrait}
                     alt="mobile vehicle"
                   />
@@ -85,7 +85,7 @@ const LaunchTechnology = () => {
                     srcSet={image_capsule_landscape}
                   />
                   <img
-                    className="w-full h-72 sm:h-auto object-cover sm:object-contain"
+                    className="w-full h-72 sm:h-auto object-cover object-center sm:object-top lg:object-center"
                     src={image_capsule_portrait}
                     alt="mobile vehicle"
                   />

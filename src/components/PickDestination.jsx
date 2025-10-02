@@ -25,7 +25,7 @@ const PickDestination = () => {
                 transition={{ duration: 0.5 }}
               >
                 <img
-                  className="w-[35%] lg:w-[80%] mx-auto my-10 sm:my-15"
+                  className="w-[35%] lg:w-[80%] min-h-32 mx-auto my-10 sm:my-15"
                   src={image_moon}
                   alt="Moon Image"
                 />
@@ -40,7 +40,7 @@ const PickDestination = () => {
                 transition={{ duration: 0.5 }}
               >
                 <img
-                  className="w-[35%] lg:w-[80%] mx-auto my-10 sm:my-15"
+                  className="w-[35%] lg:w-[80%] min-h-32 mx-auto my-10 sm:my-15"
                   src={image_mars}
                   alt="Mars Image"
                 />
@@ -55,7 +55,7 @@ const PickDestination = () => {
                 transition={{ duration: 0.5 }}
               >
                 <img
-                  className="w-[35%] lg:w-[80%] mx-auto my-10 sm:my-15"
+                  className="w-[35%] lg:w-[80%] min-h-32 mx-auto my-10 sm:my-15"
                   src={image_europa}
                   alt="Europa Image"
                 />
@@ -70,7 +70,7 @@ const PickDestination = () => {
                 transition={{ duration: 0.5 }}
               >
                 <img
-                  className="w-[35%] lg:w-[80%] mx-auto my-10 sm:my-15"
+                  className="w-[35%] lg:w-[80%] min-h-32 mx-auto my-10 sm:my-15"
                   src={image_titan}
                   alt="Titan Image"
                 />
