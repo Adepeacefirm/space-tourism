@@ -7,13 +7,11 @@ const Crew = () => {
   return (
     <motion.div
       key={"crew-page"}
-      initial={{ opacity: 0, scale: 0.9 }}
+      initial={{ opacity: 0.1, scale: 0.9 }}
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.9 }}
       transition={{ duration: 0.5 }}
-      className='bg-[url("/background-crew-mobile.jpg")] sm:bg-[url("/background-crew-tablet.jpg")] lg:bg-[url("/background-crew-desktop.jpg")] bg-cover bg-center'
     >
-      <Navbar />
       <MeetCrew />
     </motion.div>
   );

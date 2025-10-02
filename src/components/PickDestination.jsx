@@ -19,7 +19,7 @@ const PickDestination = () => {
             {myDestination === "moon" && (
               <motion.div
                 key={"moon-img"}
-                initial={{ opacity: 0, scale: 0.9 }}
+                initial={{ opacity: 0.1, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.5 }}
@@ -34,7 +34,7 @@ const PickDestination = () => {
             {myDestination === "mars" && (
               <motion.div
                 key={"mars-img"}
-                initial={{ opacity: 0, scale: 0.9 }}
+                initial={{ opacity: 0.1, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.5 }}
@@ -49,7 +49,7 @@ const PickDestination = () => {
             {myDestination === "europa" && (
               <motion.div
                 key={"europa-img"}
-                initial={{ opacity: 0, scale: 0.9 }}
+                initial={{ opacity: 0.1, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.5 }}
@@ -64,7 +64,7 @@ const PickDestination = () => {
             {myDestination === "titan" && (
               <motion.div
                 key={"titan-img"}
-                initial={{ opacity: 0, scale: 0.9 }}
+                initial={{ opacity: 0.1, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.5 }}
@@ -117,7 +117,7 @@ const PickDestination = () => {
             {myDestination === "moon" && (
               <motion.section
                 key={"moon-text"}
-                initial={{ opacity: 0, scale: 0.9 }}
+                initial={{ opacity: 0.1, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.5 }}
@@ -154,7 +154,7 @@ const PickDestination = () => {
             {myDestination === "mars" && (
               <motion.section
                 key={"mars-text"}
-                initial={{ opacity: 0, scale: 0.9 }}
+                initial={{ opacity: 0.1, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.5 }}
@@ -190,7 +190,7 @@ const PickDestination = () => {
             {myDestination === "europa" && (
               <motion.section
                 key={"europa-text"}
-                initial={{ opacity: 0, scale: 0.9 }}
+                initial={{ opacity: 0.1, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.5 }}
@@ -227,7 +227,7 @@ const PickDestination = () => {
             {myDestination === "titan" && (
               <motion.section
                 key={"titan-text"}
-                initial={{ opacity: 0, scale: 0.9 }}
+                initial={{ opacity: 0.1, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.5 }}

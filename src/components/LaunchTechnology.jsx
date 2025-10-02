@@ -31,11 +31,11 @@ const LaunchTechnology = () => {
                     srcSet={image_vehicle_portrait}
                   />
                   <source
-                    media="(min-width: 648px)"
+                    media="(min-width: 640px)"
                     srcSet={image_vehicle_landscape}
                   />
                   <img
-                    className="w-full h-72 sm:h-auto object-cover sm:object-contain"
+                    className="w-full h-72 sm:h-auto object-cover object-bottom sm:object-top lg:object-center"
                     src={image_vehicle_portrait}
                     alt="mobile vehicle"
                   />
